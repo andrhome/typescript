@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Enum
  */
@@ -19,7 +20,6 @@
 // function throughNewError(err: string): never {
 //     throw new Error(err)
 // }
-
 /**
  * Decorators
  */
@@ -38,9 +38,7 @@
 //         console.log('I am new user');
 //     }
 // }
-
 // ===========================================================
-
 // function addShowAbility(constrFn: Function) {
 //     constrFn.prototype.showHtml = function () {
 //         const pre = document.createElement('pre');
@@ -61,11 +59,9 @@
 // const ivan = new User('Ivan', 25, 'Frontend');
 // console.log(ivan);
 // (<any>ivan).showHtml();
-
 /**
  * Namespaces
  */
-
 // namespace Util {
 //     export function isEmpty(data: any): boolean {
 //         return !data;
@@ -88,7 +84,6 @@
 //
 // const EXP = 'TEST';
 // console.log(EXP);
-
 /**
  * Interface
  */
@@ -182,7 +177,6 @@
 //     // selectableControl.doStuff(new Button());
 //
 // })();
-
 /**
  * Generics
  */
@@ -220,7 +214,6 @@
 //     const mStr = new Multiply('3', '15');
 //     console.log('String ', mStr.getResult());
 // })();
-
 // ;(function () {
 //     interface Sportsman {
 //         age: number;
